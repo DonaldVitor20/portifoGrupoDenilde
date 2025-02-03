@@ -1,0 +1,402 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #646d44;
+    color: #ffffff;
+}
+
+header {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin: 10px 0 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: #646d44;
+    color: #ffffff;
+
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0);
+    text-align: center;
+    padding: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card h3 {
+    margin: 0 0 15px;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    background-color: #bbb88d;
+    color: #6b705c;
+    padding: 40px 20px;
+}
+#imgAbout1{
+    margin-top: 200px;
+}
+
+
+
+.about img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.about-text {
+    max-width: 600px;
+}
+
+.about-text h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.about2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    background-color: #bbb88d;
+    color: #6b705c;
+    padding: 40px 20px;
+}
+.about2 img {
+    max-width: 600px;
+    margin: auto;
+
+}
+.about2-text {
+    max-width: 400px;
+    margin: auto;
+}
+.button-Indicar{
+    border-radius: 12px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.artistas{
+    
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #a19d8a;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.artistas h1{
+    font-size: 2rem;
+      margin-bottom: 2rem;
+}
+
+.container{
+    
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    padding: 0 1rem;
+}
+
+.-card {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 200px;
+  }
+
+  .-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .-card p {
+    margin: 0;
+    padding: 1rem;
+    font-size: 1rem;
+    color: #444;
+  }
+
+
+  .filter {
+    position: relative;
+    left: 550px;
+    bottom: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .filter label {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  .filter button {
+    margin-top: 0.5rem;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .obras{
+    
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #a19d8a;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+  }
+  .obras h1{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .container-obras{
+    
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    padding: 0 1rem;
+
+  }
+
+
+
+.augusto{
+    display:flex;
+    background-image:Url("imgAugusto.jpg");
+    background-size: cover;
+
+}
+.augusto div{
+    padding-bottom: 200px;
+}
+.augusto h1{
+    padding: 0px 100px 100px 100px;
+    font-size: 68px;
+    font-family: monospace;
+
+}
+.augusto p{
+    font-size: 24px;
+    padding: 150px 50px 0 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.augusto button{
+    position: relative;
+    margin-left: 650px;
+    margin-top: 50px;
+    width: 140px;
+    height: auto;
+    border-radius: 15px;
+    color: black;
+    background-color: white;
+}
+
+#natanael{
+    background-color: white;
+    color: #333;
+    background-image:url("nathanaeling.png");
+    background-size:contain;
+}
+
+#roberta{
+    background-image: url("Roberta\ Carvalho.png");
+    background-size: cover;
+
+}
+
+
+
+#obra-augu{
+    background-color: #bbb88d;
+
+}
+.obrasAu h1{
+    display: inline-block;
+    color: white;
+    font-family: cursive;
+
+}
+.obrasAu h2{
+    display: inline-block;
+    color: black;
+    font-family: inherit;
+
+    
+}
+#obrass div{
+    padding: 50px;
+    background-color: #bbb88d;
+    box-shadow: none;
+
+}
+
+#obra-natan{
+    background-color: #bbb88d;
+
+
+}
+#obrasss div{
+  background-color: #bbb88d;
+    box-shadow: none;
+}
+#obrasss h1{
+    font-size: 68px;
+    color: white;
+    
+}
+
+#img2-nat{
+    padding-top: 100px;
+}
+
+.obra-rob{
+    background-color: #bbb88d;
+}
+
+.obra-rob h1{
+    display: inline-block;
+    font-size: 62px;
+    font-family: cursive;
+    padding-left: 100px;
+}
+.obra-rob h2{
+    display: inline-block;
+    font-family: monospace;
+    font-size: 32px;
+    padding-top: 70px;
+    padding-left: 15px;
+    color: black;
+}
+.obra-rob div{
+    display: flex;
+    height: 200px;
+    width: 200px;
+}
+
+.imgR1{
+    padding-left: 150px;
+}
+.imgR2{
+    padding-left: 500px;
+}
+.imgR3{
+    padding-left: 500px;
+
+}
+
+#obra-rob-ti{
+    width: 1200px;
+    height: 300px;
+}
+#obra-rob-ti1{
+    width: 600px;
+}
+#obra-rob-ti1 h3{
+    padding-left: 200px;
+    color:#333;
+}
+#obra-rob-ti2{
+    width: 600px;
+    padding-left: 200px;
+    display: inline;
+}
+#obra-rob-ti2 h3{
+    padding-left: 200px;
+    color: #333;
+}
+
+#obra-rob-ti2 p{
+    color: #333;
+    text-align: center;
+}
+#referencias{
+    height: 650px;
+    background-color: #c8c2a4;
+}
+#referencias div{
+    width: 700px;
+    height: 500px;
+    padding: 100px 400px 0px 100px;
+}
+.referencias p{
+    padding-bottom: 50px;
+}
+.contato{
+    height: 610px;
+    display: block;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+#contatoss{
+    display: flex;
+}
+.redes-sociais img{
+    width: 30px;
+    height: 30px;
+    padding-right: 20px;
+}
+#cont{
+  width:400px;
+  margin-left:100px;
+  padding-left: 50px;
+  margin-top: 50px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #5a5d4d;
+    color: #ffffff;
+    font-size: 0.9rem;
+}
